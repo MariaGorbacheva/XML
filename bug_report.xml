@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bug_1>
+<Bug_ID>1</Bug_ID>
+<Summary>Colour of the area [Profit/Loss] is green when number is negative</Summary>
+<Precondition>Open the main page capital.com, scroll to the tradinh calculator</Precondition>
+<Steps_to_reproduce>Choose "Short" on the radio button to make number of the area [Profit/Loss] under the graph negative</Steps_to_reproduce>
+<ER>The number is red</ER>
+<AR>The number is green</AR>
+<Assigned_to>Developer's name</Assigned_to>
+<Attachment>Video</Attachment>
+<Environment>Google Chrome Version 109.0.5414.120  1360*769</Environment>
+<Modul>Trading Calculator</Modul>
+<Comment>According to UX negative numbet should be red</Comment>
+<Severity >Trivial</Severity>
+<Priority>Middle</Priority>
+</Bug_1>
